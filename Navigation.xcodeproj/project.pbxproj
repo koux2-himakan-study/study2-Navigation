@@ -16,6 +16,8 @@
 		D1CBA7C0163A72B70077585B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CBA7BF163A72B70077585B /* Default.png */; };
 		D1CBA7C2163A72B70077585B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CBA7C1163A72B70077585B /* Default@2x.png */; };
 		D1CBA7C4163A72B70077585B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1CBA7C3163A72B70077585B /* Default-568h@2x.png */; };
+		D1CBA7CC163A73580077585B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CBA7CB163A73580077585B /* RootViewController.m */; };
+		D1CBA7D7163A78FC0077585B /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CBA7D6163A78FC0077585B /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		D1CBA7BF163A72B70077585B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D1CBA7C1163A72B70077585B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D1CBA7C3163A72B70077585B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D1CBA7CA163A73580077585B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D1CBA7CB163A73580077585B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D1CBA7D5163A78FC0077585B /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		D1CBA7D6163A78FC0077585B /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 				D1CBA7BC163A72B70077585B /* AppDelegate.h */,
 				D1CBA7BD163A72B70077585B /* AppDelegate.m */,
 				D1CBA7B4163A72B70077585B /* Supporting Files */,
+				D1CBA7CA163A73580077585B /* RootViewController.h */,
+				D1CBA7CB163A73580077585B /* RootViewController.m */,
+				D1CBA7D5163A78FC0077585B /* NextViewController.h */,
+				D1CBA7D6163A78FC0077585B /* NextViewController.m */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -166,6 +176,8 @@
 			files = (
 				D1CBA7BA163A72B70077585B /* main.m in Sources */,
 				D1CBA7BE163A72B70077585B /* AppDelegate.m in Sources */,
+				D1CBA7CC163A73580077585B /* RootViewController.m in Sources */,
+				D1CBA7D7163A78FC0077585B /* NextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
